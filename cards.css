@@ -1,0 +1,24 @@
+#allCards {
+    display: flex;
+    justify-content: space-evenly;
+    
+    flex-wrap: wrap;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    margin: 10px;
+}
+
+.card > * {
+    margin: 5px;
+}
+
+#createContainer {
+    text-align: center;
+}
+
